@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/demo.wegotworkspace.com.ico",
     "slug": "web-app",
     "status": "up",
-    "uptime": "19.73%",
-    "uptimeDay": "19.73%",
-    "uptimeWeek": "19.73%",
-    "uptimeMonth": "19.73%",
-    "uptimeYear": "19.73%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "uptime": "5.54%",
+    "uptimeDay": "5.54%",
+    "uptimeWeek": "5.54%",
+    "uptimeMonth": "5.54%",
+    "uptimeYear": "5.54%",
+    "time": 702,
+    "timeDay": 702,
+    "timeWeek": 702,
+    "timeMonth": 702,
+    "timeYear": 702,
     "dailyMinutesDown": {
-      "2026-11-12": 1
+      "2026-11-12": 8
     }
   },
   {
@@ -25,18 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/demo.wegotworkspace.com.ico",
     "slug": "api",
     "status": "up",
-    "uptime": "24.28%",
-    "uptimeDay": "24.28%",
-    "uptimeWeek": "24.28%",
-    "uptimeMonth": "24.28%",
-    "uptimeYear": "24.28%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "uptime": "4.77%",
+    "uptimeDay": "4.77%",
+    "uptimeWeek": "4.77%",
+    "uptimeMonth": "4.77%",
+    "uptimeYear": "4.77%",
+    "time": 662,
+    "timeDay": 662,
+    "timeWeek": 662,
+    "timeMonth": 662,
+    "timeYear": 662,
     "dailyMinutesDown": {
-      "2026-11-12": 1
+      "2026-11-12": 8
     }
   },
   {
@@ -50,11 +50,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "time": 647,
+    "timeDay": 647,
+    "timeWeek": 647,
+    "timeMonth": 647,
+    "timeYear": 647,
     "dailyMinutesDown": {}
   },
   {
@@ -68,11 +68,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "time": 139,
+    "timeDay": 139,
+    "timeWeek": 139,
+    "timeMonth": 139,
+    "timeYear": 139,
     "dailyMinutesDown": {}
   },
   {
@@ -81,18 +81,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/alive.wegotworkspace.com.ico",
     "slug": "monitoring",
     "status": "up",
-    "uptime": "51.35%",
-    "uptimeDay": "51.35%",
-    "uptimeWeek": "51.35%",
-    "uptimeMonth": "51.35%",
-    "uptimeYear": "51.35%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "uptime": "4.36%",
+    "uptimeDay": "4.36%",
+    "uptimeWeek": "4.36%",
+    "uptimeMonth": "4.36%",
+    "uptimeYear": "4.36%",
+    "time": 620,
+    "timeDay": 620,
+    "timeWeek": 620,
+    "timeMonth": 620,
+    "timeYear": 620,
     "dailyMinutesDown": {
-      "2026-11-12": 0
+      "2026-11-12": 7
     }
   }
 ]
