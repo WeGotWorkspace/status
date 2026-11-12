@@ -18,6 +18,10 @@ sites:
     check: "tcp-ping"
     url: turn.wegotworkspace.com
     port: 3478
+  - name: Monitoring
+    url: https://alive.wegotworkspace.com/
+    expectedStatusCodes:
+      - 200
 
 status-website:
   cname: status.wegotworkspace.com
