@@ -26,6 +26,8 @@ With [Upptime](https://upptime.js.org), you can get your own unlimited and free 
 
 [**Visit our status website →**](https://status.wegotworkspace.com)
 
+The page is `status-page/index.html`, not Upptime's stock site (Static Site CI stays disabled). The Status page workflow runs `status-page/build.mjs` after every check to turn `history/` and the incident issues into `status.json` and publishes both to gh-pages.
+
 ## 📄 License
 
 - Powered by: [Upptime](https://github.com/upptime/upptime)

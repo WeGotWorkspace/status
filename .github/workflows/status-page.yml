@@ -1,0 +1,30 @@
+# Publishes status-page/ to gh-pages. Upptime's commits carry [skip ci], so it follows their workflow runs instead of pushes.
+name: Status page
+on:
+  workflow_run:
+    workflows: [Uptime CI, Setup CI]
+    types: [completed]
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    branches: [master]
+    paths: ["status-page/**", ".github/workflows/status-page.yml"]
+  workflow_dispatch:
+concurrency:
+  group: status-page
+  cancel-in-progress: true
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: node status-page/build.mjs status-page/status.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GH_PAT }}
+          publish_dir: status-page
+          exclude_assets: build.mjs
+          cname: status.wegotworkspace.com
+          full_commit_message: Publish status page
